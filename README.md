@@ -1,104 +1,131 @@
-# 📊 Báo Cáo Tổng Kết Chỉ Số KPI Bệnh Viện Năm 2024
+# 🏥 Hospital KPI Dashboard Project (83 Bộ Tiêu Chí Bộ Y Tế)
 
-Kho lưu trữ này tổng hợp các báo cáo chi tiết về **hiệu quả hoạt động, tài chính, nhân sự và an toàn y khoa** của bệnh viện trong năm 2024. Dữ liệu được phân tích nhằm hỗ trợ đánh giá hiệu suất và cải thiện chất lượng dịch vụ y tế.
+## 📌 Giới thiệu dự án
 
----
+Dự án tập trung **xây dựng hệ thống dashboard phân tích chất lượng bệnh viện** dựa trên **83 tiêu chí đánh giá của Bộ Y Tế Việt Nam**.
 
-## 🏥 1. Tổng Quan Chất Lượng & Sự Hài Lòng
+Mục tiêu là hỗ trợ:
 
-* **Điểm chất lượng trung bình:** 86.83 điểm
-
-  * Tăng **7.9%** so với tháng trước
-* **Mức độ hài lòng của bệnh nhân:**
-
-  * Trung bình cả năm: **85.58 điểm**
-* **Tỷ lệ hài lòng theo khoa:**
-
-  * Bao gồm: Nội, Ngoại, Sản, Nhi, Hồi sức, Cấp cứu
-  * Quy mô khảo sát: **~5,400 – 5,460 bệnh nhân/khoa**
+* Theo dõi hiệu quả hoạt động bệnh viện
+* Đánh giá chất lượng dịch vụ y tế
+* Hỗ trợ ra quyết định dựa trên dữ liệu (data-driven decision making)
 
 ---
 
-## 👶 2. Hiệu Quả Chuyên Khoa (Sản Khoa)
+## 🎯 Mục tiêu
 
-* **Tổng số bệnh nhân:** 229,828 (năm 2024)
+* Chuẩn hóa và tích hợp dữ liệu từ nhiều nguồn
+* Xây dựng dashboard trực quan trên **Power BI**
+* Phân tích các nhóm chỉ số:
 
-### Chỉ số chuyên môn:
-
-* **Điểm đánh giá chuyên khoa:** 90.22 điểm
-* **Tỷ lệ tư vấn sức khỏe sinh sản:** 82.75%
-* **Tỷ lệ nuôi con bằng sữa mẹ:**
-
-  * Ổn định, đạt đỉnh khoảng **83.25%**
+  * Chất lượng & hài lòng bệnh nhân
+  * Hiệu quả chuyên khoa
+  * Tài chính & vận hành
+  * Nhân sự & đào tạo
+  * An toàn y khoa
 
 ---
 
-## 💰 3. Tài Chính & Hiệu Quả Vận Hành (2020 – 2024)
+## 🛠️ Công nghệ sử dụng
 
-### Kết quả tài chính:
+* **Power BI** – Xây dựng dashboard và trực quan hóa
+* **SQL Server** – Lưu trữ và truy vấn dữ liệu
+* **Excel** – Tiền xử lý dữ liệu
+* **Data Warehouse (Fact – Dimension)** – Mô hình hóa dữ liệu
 
-* **Tổng doanh thu:** 942,413,000 VNĐ
-* **Tổng chi phí:** 714,786,044 VNĐ
-* **Lợi nhuận:** 227,626,956 VNĐ
+---
 
-### Hiệu quả sử dụng:
+## 📊 Nội dung phân tích chính
 
-* **Phòng mổ:** Tổng chỉ số sử dụng 470.98
+### 1. Chất lượng & Sự hài lòng
+
+* Điểm chất lượng trung bình: **86.83** (+7.9%)
+* Điểm hài lòng bệnh nhân: **85.58**
+* Phân tích theo khoa: Nội, Ngoại, Sản, Nhi, Hồi sức, Cấp cứu
+
+---
+
+### 2. Hiệu quả chuyên khoa (Sản)
+
+* Tổng bệnh nhân: **229,828**
+* Điểm chuyên khoa: **90.22**
+* Tư vấn sức khỏe sinh sản: **82.75%**
+* Tỷ lệ nuôi con bằng sữa mẹ: ~**83.25%**
+
+---
+
+### 3. Tài chính & vận hành (2020–2024)
+
+* Doanh thu: **942,413,000 VNĐ**
+
+* Chi phí: **714,786,044 VNĐ**
+
+* Lợi nhuận: **227,626,956 VNĐ**
+
 * Theo dõi hiệu quả:
 
+  * Phòng mổ (OR utilization)
   * Giường bệnh
   * Thiết bị y tế
-  * Xu hướng qua các năm
 
 ---
 
-## 👨‍⚕️ 4. Quản Trị Nhân Sự & Đào Tạo
+### 4. Nhân sự & đào tạo
 
-* **Tổng giờ đào tạo:** 1,780 giờ
-* **Tỷ lệ tập huấn:** 84.92%
-* **Tỷ lệ nghỉ việc:** 2.57% (mức thấp, ổn định)
+* Tổng giờ đào tạo: **1,780 giờ**
+* Tỷ lệ tập huấn: **84.92%**
+* Tỷ lệ nghỉ việc: **2.57%**
 
 ---
 
-## ⚠️ 5. An Toàn Y Khoa & Quản Trị Rủi Ro
+### 5. An toàn y khoa & rủi ro
 
-### Kiểm soát nhiễm khuẩn:
-
-* **Tỷ lệ nhiễm khuẩn:** 18.28%
-
-### Tuân thủ an toàn:
+* Tỷ lệ nhiễm khuẩn: **18.28%**
 
 * Theo dõi:
 
   * An toàn phẫu thuật
   * Phòng ngừa trượt ngã
-  * Chống nhầm lẫn người bệnh
+  * Nhầm lẫn người bệnh
 
-### Sự cố y khoa:
+* Phân loại sự cố:
 
-* Ghi nhận và phân loại:
-
-  * Nhầm lẫn hành chính
-  * Nhiễm khuẩn bệnh viện
+  * Hành chính
+  * Nhiễm khuẩn
   * Sai sót chuyên môn
 
-➡️ Mục tiêu: **đưa ra giải pháp cải thiện và giảm thiểu rủi ro**
+---
+
+## 📈 Kết quả đạt được
+
+* Xây dựng dashboard tổng hợp theo **83 tiêu chí Bộ Y Tế**
+* Giúp phát hiện:
+
+  * Xu hướng chất lượng theo thời gian
+  * Điểm yếu trong vận hành và an toàn
+* Hỗ trợ trực quan hóa dữ liệu phục vụ báo cáo quản lý
 
 ---
 
-## 📌 Mục Đích Sử Dụng
+## 🚀 Giá trị của dự án
 
-* Hỗ trợ **quản lý bệnh viện** theo dõi hiệu suất
-* Phục vụ **phân tích dữ liệu y tế** và nghiên cứu
-* Làm cơ sở cho **dashboard Power BI / BI systems**
-* Cải thiện **chất lượng dịch vụ và trải nghiệm bệnh nhân**
+* Hỗ trợ **quản lý bệnh viện** theo dõi KPI hiệu quả
+* Nâng cao **chất lượng dịch vụ y tế**
+* Tạo nền tảng cho **phân tích dữ liệu y tế nâng cao (AI, dự báo)**
+
+---
+
+## 📎 Demo & Tài nguyên
+
+* Dashboard Power BI (nếu có link thì thêm vào đây)
+* Dataset (nếu public)
+* Hình ảnh dashboard
 
 ---
 
-## 🚀 Gợi Ý Mở Rộng
+## 👤 Tác giả
 
-* Kết hợp dữ liệu thời gian thực (real-time monitoring)
-* Ứng dụng AI để dự báo xu hướng bệnh và quá tải
-* Tích hợp hệ thống cảnh báo sớm rủi ro y khoa
+**Đinh Lê Quỳnh Phương**
 
----
+* Data Analyst Intern
+* Data Science Student – Public Health
